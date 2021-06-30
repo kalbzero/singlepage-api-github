@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Aula 09</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap5/css/bootstrap.min.css">
+	<script type="text/javascript" src="./jquery-3.6.0.js"></script>
+	<script type="text/javascript" src="./script09.js"></script>
+</head>
+<body class="container">
+	<p>Busca usuario do Github!</p>
+	<input type="text" id="nome" placeholder="Digite o nome de usuario do Github">
+	<button id="buscar" type="click">Pressione o botão</button>
+
+	<div class="row mt-3">
+		<div class="col-md-4 col-12 border text-center">
+			<p id="login" class=""></p>
+			<p id="username"></p>
+			<img id="photo" src="" class="w-50 rounded-circle">
+			<div class="row">
+				<div class="col">Seguindo:<p id="following"></p></div>
+				<div class="col">Seguidores:<p id="followers"></p></div>
+			</div>
+		</div>
+		<div id="repositorios" class="col-md-8 col-12 border pt-3"></div>
+	</div>
+</body>
+</html>
